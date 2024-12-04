@@ -11,6 +11,7 @@ namespace TaskOrganizer
         public string TaskName { get; set; }
         public string Deadline { get; set; }
         public string Description { get; set; }
+        public string Priority {get; set; }
     }
 }
 
