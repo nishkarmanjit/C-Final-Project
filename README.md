@@ -11,9 +11,6 @@ This project was created for educational purposes to showcase the usage of WPF, 
 - Delete tasks from your task list.
 - Intuitive and simple user interface.
 
-## Screenshots 📸
-![Task Organizer Screenshot](link_to_screenshot_image)
-
 ## Setup Instructions 🛠️
 
 ### Prerequisites ⚙️
@@ -27,6 +24,8 @@ To run this project, ensure that you have the following installed on your system
 1. Clone the repository to your local machine:
    ```bash
    git clone https://github.com/yourusername/task-organizer.git
+2. Open the solution in Visual Studio:
+Navigate to the project folder and open TaskOrganizer.sln.
 
 ## Running the Application ▶️
 Once the solution is loaded in Visual Studio, press F5 to build and run the application.
@@ -59,3 +58,6 @@ The AddTaskWindow.xaml allows the user to enter the details of a new task (task 
 
 ### RelayCommand 💡
 The RelayCommand class is an implementation of the ICommand interface used to bind button click events to methods in the ViewModel or code-behind. It allows for easy command handling in WPF applications.
+
+## License 🔑
+This project is licensed under the MIT License - see the LICENSE file for details.
