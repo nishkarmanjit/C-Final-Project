@@ -26,7 +26,8 @@ namespace TaskOrganizer
             {
                 TaskName = TaskNameTextBox.Text,
                 Deadline =  $"Date: {DeadlineTextBox.Text}",
-                Description = $"Description: {DescriptionTextBox.Text}"
+                Description = $"Description: {DescriptionTextBox.Text}",
+                Priority = (PriorityComboBox.SElectedItem as ComboBoxItem)?.Content.ToString()
             };
 
             // Close the form and return the new task
